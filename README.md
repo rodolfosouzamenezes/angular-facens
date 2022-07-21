@@ -1,27 +1,21 @@
-# CursoAngular
+# Curso de Férias FACENS (Angular e TypeScript)
+Este repositório exibe o conteúdo do curso de férias da facens focado em Angular e TypeScript.
 
-This project was generated with [Angular CLI](https://github.com/angular/angular-cli) version 14.0.6.
+## Pré-requisitos para rodar o projeto
+- Ter instalado o [NodeJS + NPM](https://nodejs.org/en/download/)
 
-## Development server
+## Instale estas dependências
+```node
+npm i jsonwebtoken
+```
+```node
+npm i -g @angular/cli
+```
 
-Run `ng serve` for a dev server. Navigate to `http://localhost:4200/`. The application will automatically reload if you change any of the source files.
+## Rodando o Projeto
+Rode o seguinte comando:
+```node
+ng serve
+```
 
-## Code scaffolding
-
-Run `ng generate component component-name` to generate a new component. You can also use `ng generate directive|pipe|service|class|guard|interface|enum|module`.
-
-## Build
-
-Run `ng build` to build the project. The build artifacts will be stored in the `dist/` directory.
-
-## Running unit tests
-
-Run `ng test` to execute the unit tests via [Karma](https://karma-runner.github.io).
-
-## Running end-to-end tests
-
-Run `ng e2e` to execute the end-to-end tests via a platform of your choice. To use this command, you need to first add a package that implements end-to-end testing capabilities.
-
-## Further help
-
-To get more help on the Angular CLI use `ng help` or go check out the [Angular CLI Overview and Command Reference](https://angular.io/cli) page.
+Quando o comando estiver finalizado, abra o link `http://localhost:4200/` em seu navegador. O aplicativo será recarregado automaticamente se você alterar algum arquivo.
