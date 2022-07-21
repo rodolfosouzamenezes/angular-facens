@@ -2,12 +2,14 @@
 Este repositório exibe o conteúdo do curso de férias da facens focado em Angular e TypeScript.
 
 ## Pré-requisitos para rodar o projeto
-- Ter instalado o [NodeJS + NPM](https://nodejs.org/en/download/)
+- Ter instalado o [NodeJS](https://nodejs.org/en/download/)
 
 ## Instale estas dependências
 ```node
-npm i jsonwebtoken
+npm i
 ```
+
+## Instale o Angular globalmente em sua máquina
 ```node
 npm i -g @angular/cli
 ```
@@ -18,4 +20,4 @@ Rode o seguinte comando:
 ng serve
 ```
 
-Quando o comando estiver finalizado, abra o link `http://localhost:4200/` em seu navegador. O aplicativo será recarregado automaticamente se você alterar algum arquivo.
+Quando o comando estiver finalizado, abra o link [http://localhost:4200/](http://localhost:4200/) em seu navegador. O aplicativo será recarregado automaticamente se você alterar algum arquivo.
