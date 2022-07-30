@@ -19,5 +19,14 @@ Rode o seguinte comando:
 ```node
 ng serve
 ```
-
+rode ao mesmo tempo estes comandos, em outro terminal, para rodar a api:
+```cmd
+cd api
+```
+```node
+npm i
+```
+```node
+ng serve
+```
 Quando o comando estiver finalizado, abra o link [http://localhost:4200/](http://localhost:4200/) em seu navegador. O aplicativo será recarregado automaticamente se você alterar algum arquivo.
